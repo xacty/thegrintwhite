@@ -103,7 +103,6 @@ menu.responsive{
 	}
 
 	.menu ul, .logo a {
-		display: flex;
 		flex-direction: row;
 		align-items: center;
 	}

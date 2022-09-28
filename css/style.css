@@ -705,6 +705,9 @@ footer .footer-shape {
 	}
 }
 @media screen and (max-width: 512px) {
+	.wrapper {
+		flex-direction: column;
+	}
 	.m-hidden {
 		display: none;
 	}
