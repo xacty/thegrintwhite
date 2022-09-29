@@ -16,34 +16,38 @@
   <header>
     <div class="head_container container">
       <div class="logo">
-        <a href="#"><img src="assets/white_logo.png"></a>
+        <a class="fixed-logo" href="#"><img src="assets/white_logo.png"></a>
+        <a class="head_logo" href="#"><img src="assets/logo.webp"></a>
       </div>
       <div class="menu" id="myTopnav">
         <ul>
-
           <li><a href="https://sandbox.thegrint.com/passthru">Log in</a></li>
           <li><a class="join-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN<span class="m-hidden"> FOR FREE</span></a></li>
         </ul>
       </div>
     </div>
   </header>
-  <section class="main-banner white">
-    <div class="overlay"></div>
-    <svg id="Layer_1" class="shape first-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 114.21"><defs><style>.shaper-svg{fill:#fff;}</style></defs><path class="shaper-svg" d="M0,114.2s586.81,2.32,900.35-72,682.84-34.84,838.45,0,181.19,37.16,181.19,37.16v34.84H0Z"/></svg>
 
-    <div style="display: none;" class="shape shape-bottom">
-      <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 114.21"><defs><style>.shaper-svg{fill:#fff;}</style></defs><path class="shaper-svg" d="M0,114.2s586.81,2.32,900.35-72,682.84-34.84,838.45,0,181.19,37.16,181.19,37.16v34.84H0Z"/></svg>
-    </div>
+  <section class="main-banner">
     <div class="banner-content container">
-      <h1><b>The Best Golf App</b></h1>
-      <h2>Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</h2>
-      <div class="buttons">
-       <?php include "sections/buttons.html" ?>
-     </div>
-     <p class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
-   </div>
- </section>
- <section class="first-section">
+      <div class="wrapper">
+        <div class="left">
+          <h1><b>The Best Golf App</b></h1>
+          <h2>Golf Scoretracker, Handcaps, Golf GPS, Advanced Stats and more</h2>
+          <div class="buttons">
+           <?php include "sections/buttons.html" ?>
+         </div>
+         <p class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
+       </div>
+       <div class="right">
+        <img src="assets/devices2.webp" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="first-section">
   <div class="container">
     <h1><b>TheGrint</b> is the best <br><b class="green">golf scoretracker!</b></h1>
     <div class="first-wrapper">
@@ -57,47 +61,39 @@
      </div>
    </div>
    <div class="awards">
-      <div class="a-wrapper">
-        <div class="a-img-box"><img src="assets/cnn.png" alt=""></div>
-        <p>“App changes golf for amateurs”</p>
-      </div>
-      <div class="a-wrapper">
-        <div class="a-img-box"><img src="assets/golf_digest.png" alt=""></div>
-        <p>“Score, stats and GPS”</p>
-      </div>
-      <div class="a-wrapper">
-        <div class="a-img-box"><img src="assets/golf_magazine.png" alt=""></div>
-        <p>“Top App for Handicaps and scoring”</p>
-      </div>
+    <div class="a-wrapper">
+      <div class="a-img-box"><img src="assets/cnn.png" alt=""></div>
+      <p>“App changes golf for amateurs”</p>
     </div>
- </div>
+    <div class="a-wrapper">
+      <div class="a-img-box"><img src="assets/golf_digest.png" alt=""></div>
+      <p>“Score, stats and GPS”</p>
+    </div>
+    <div class="a-wrapper">
+      <div class="a-img-box"><img src="assets/golf_magazine.png" alt=""></div>
+      <p>“Top App for Handicaps and scoring”</p>
+    </div>
+  </div>
+</div>
 </section>
 
 <section style="display: none;" class="second-section provisional blue-bg">
-  <div class="shape shape2" data-negative="false">
-    <?xml version="1.0" encoding="UTF-8"?>
-    <svg id="Layer_1" class="svg-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
-      <style>.c{fill:#fff;}</style>
-    </defs>
-    <polygon style="opacity: .5;" class="c" points="0 50 1920 50 1920 0 0 29.31 0 50"/><polygon style="opacity: .25;" class="c" points="0 50 1920 50 1920 100 0 70.69 0 50"/><polygon class="c" points="1920 0 0 0 0 29.31 1920 0"/>
-  </svg>
-</div>
-<div class="blue-overlay"></div>
-<div class="container">
-  <div class="second-wrapper white">
-    <div class="left">
-      <img src="assets/devices2.webp" alt="">
-    </div>
-    <div class="right">
-      <h1><b class="green">TheGrint</b> built-in GPS allows you to <b> play golf around the world</b></h1>
-      <p>We offer more than 40k mapped golf courses around the world that you can play and navigate through our advanced golf GPS feature.</p>
-      <p class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
-      <div class="buttons">
-       <?php include "sections/buttons.html" ?>
+  <div class="blue-overlay"></div>
+  <div class="container">
+    <div class="second-wrapper white">
+      <div class="left">
+        <img src="assets/devices2.webp" alt="">
+      </div>
+      <div class="right">
+        <h1><b class="green">TheGrint</b> built-in GPS allows you to <b> play golf around the world</b></h1>
+        <p>We offer more than 40k mapped golf courses around the world that you can play and navigate through our advanced golf GPS feature.</p>
+        <p class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
+        <div class="buttons">
+         <?php include "sections/buttons.html" ?>
+       </div>
      </div>
    </div>
  </div>
-</div>
 </section>
 
 <section style="display: none;" class="third-section">
@@ -200,37 +196,36 @@
   </div>
 </section>
 
-<section class="fourth-section blue-bg">
-  <div class="blue-overlay"></div>
+<section class="fourth-section">
   <div class="container">
-    <div class="fourth-wrapper white">
+    <div class="fourth-wrapper">
       <div class="left">
         <img src="assets/4-1.webp" alt="">
         <img src="assets/4-2.webp" alt="">
         <img src="assets/4-3.webp" alt="">
       </div>
-      <div style="padding-left: 0; padding-right: 5%;" class="right">
+      <div class="right">
         <h1 class="align-left"><b class="green">Golf GPS</b><br>and Rangefinder</h1>
         <ul class="icon-list-items">
-          <li class="icon-list-item white">
+          <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
             <span class="icon-list-text">Shot tracking and distance calculation on nearly every course worldwide</span>
           </li>
-          <li class="icon-list-item white">
+          <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
             <span class="icon-list-text">Know the distance of the fairway and get on to the green</span>
           </li>
-          <li class="icon-list-item white">
+          <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
             <span class="icon-list-text">Tee off with confidence, knowing the distance to the green</span>
           </li>
-          <li class="icon-list-item white">
+          <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
@@ -283,65 +278,56 @@
   </div>
 </section>
 
-<section class="sixth-section blue-bg">
-  <div class="shape shape2" data-negative="false">
-    <?xml version="1.0" encoding="UTF-8"?>
-    <svg id="Layer_1" class="svg-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
-      <style>.c{fill:#fff;}</style>
-    </defs>
-    <polygon style="opacity: .5;" class="c" points="0 50 1920 50 1920 0 0 29.31 0 50"/><polygon style="opacity: .25;" class="c" points="0 50 1920 50 1920 100 0 70.69 0 50"/><polygon class="c" points="1920 0 0 0 0 29.31 1920 0"/>
-  </svg>
-</div>
-<div class="blue-overlay"></div>
-<div class="container">
-  <div class="second-wrapper sixth-wrapper white">
-    <div class="left">
-      <div id="slider">
-        <img class="iphone-border" src="assets/iphone_border.webp" alt="">
-        <ul id="slideWrap"> 
-          <li><img src="assets/image-3.webp" alt=""></li>
-          <li><img src="assets/image-4.webp" alt=""></li>
-          <li><img src="assets/image-5.webp" alt=""></li>
-          <li><img src="assets/image-6.webp" alt=""></li>
-        </ul>
+<section class="sixth-section">
+  <div class="container">
+    <div class="second-wrapper sixth-wrapper">
+      <div class="left">
+        <div id="slider">
+          <img class="iphone-border" src="assets/iphone_border.webp" alt="">
+          <ul id="slideWrap"> 
+            <li><img src="assets/image-3.webp" alt=""></li>
+            <li><img src="assets/image-4.webp" alt=""></li>
+            <li><img src="assets/image-5.webp" alt=""></li>
+            <li><img src="assets/image-6.webp" alt=""></li>
+          </ul>
 
-        <a id="prev" >&#8810;</a>
-        <a id="next" >&#8811;</a>
+          <a id="prev" >&#8810;</a>
+          <a id="next" >&#8811;</a>
+        </div>
+
+
       </div>
-
-
-    </div>
-    <div class="right">
-      <h1><b>Advanced Golf</b> <b class="green">Stats Feature</b></h1>
-      <ul class="icon-list-items">
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">Know your Strengths and Weaknessess with our benchmark dynamic targets by handicap</span>
-        </li>
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">Understand your game through our in-depth Performance Stats.</span>
-        </li>
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">Track records and milestones in your own Trophy Room.</span>
-        </li>
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">Save all your rounds in one place.</span>
-        </li>
-      </ul>
+      <div class="right">
+        <h1><b>Advanced Golf</b> <b class="green">Stats Feature</b></h1>
+        <ul class="icon-list-items">
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Know your Strengths and Weaknessess with our benchmark dynamic targets by handicap</span>
+          </li>
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Understand your game through our in-depth Performance Stats.</span>
+          </li>
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Track records and milestones in your own Trophy Room.</span>
+          </li>
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Save all your rounds in one place.</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 </section>
 
 
@@ -391,52 +377,43 @@
   </div>
 </section>
 
-<section class="second-section eighth-section blue-bg">
-  <div class="shape shape2 shape-reversed" data-negative="false">
-    <?xml version="1.0" encoding="UTF-8"?>
-    <svg id="Layer_1" class="svg-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
-      <style>.c{fill:#fff;}</style>
-    </defs>
-    <polygon style="opacity: .5;" class="c" points="0 50 1920 50 1920 0 0 29.31 0 50"/><polygon style="opacity: .25;" class="c" points="0 50 1920 50 1920 100 0 70.69 0 50"/><polygon class="c" points="1920 0 0 0 0 29.31 1920 0"/>
-  </svg>
-</div>
-<div class="blue-overlay"></div>
-<div class="container">
-  <div class="second-wrapper eighth-wrapper white">
-    <div class="left">
-      <img src="assets/golf_module.webp" alt="">
-    </div>
-    <div class="right">
-      <h1>Connect with your golf friends <b class="green">or meet new ones</b></h1>
-      <ul class="icon-list-items">
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">Track scores with friends, see their photos and more</span>
-        </li>
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">Our Foursomes tool lets you organize your next tee time with your foursome</span>
-        </li>
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">See how you rank among your friends and the rest of TheGrint community</span>
-        </li>
-        <li class="icon-list-item">
-          <span class="icon-list-icon">
-            <i aria-hidden="true" class="fas fa-check-circle"></i>
-          </span>
-          <span class="icon-list-text">We organize over 200 TheGrint Tour events per year. Go compete and meet new Grinters</span>
-        </li>
-      </ul>
+<section class="second-section eighth-section">
+  <div class="container">
+    <div class="second-wrapper eighth-wrapper">
+      <div class="left">
+        <img src="assets/golf_module.webp" alt="">
+      </div>
+      <div class="right">
+        <h1>Connect with your golf friends <b class="green">or meet new ones</b></h1>
+        <ul class="icon-list-items">
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Track scores with friends, see their photos and more</span>
+          </li>
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Our Foursomes tool lets you organize your next tee time with your foursome</span>
+          </li>
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">See how you rank among your friends and the rest of TheGrint community</span>
+          </li>
+          <li class="icon-list-item">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">We organize over 200 TheGrint Tour events per year. Go compete and meet new Grinters</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 </section>
 
 <section class="ninth-section">
@@ -453,20 +430,14 @@
 </section>
 
 <!-- Footer -->
-<footer class="blue-bg">
-  <svg  class="footer-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
-    c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
-    c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
-  </svg>
-  <div class="blue-overlay"></div>
-  <div class="container footer-container white">
+<footer>
+  <div class="container footer-container">
    <div class="top">
     <div class="footer-logo">
-      <img src="assets/white_logo.png" alt="">
+      <img src="assets/logo.webp" alt="">
     </div>
     <h2>The Best Golf App</h2>
-    <p class="green">Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</p>
+    <p>Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</p>
     <div class="social-media">
       <a href="https://www.facebook.com/thegrintgolf"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
       <a href="https://www.instagram.com/thegrintgolf/"><i aria-hidden="true" class="fab fa-instagram"></i></a>
@@ -489,7 +460,6 @@
  </div>
 </div>
 </footer>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/js.js"></script>
